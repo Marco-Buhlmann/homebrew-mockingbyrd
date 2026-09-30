@@ -9,12 +9,24 @@ A Homebrew cask for [Mockingbyrd](https://mockingbyrd.io/) — it measures a
 workstation running AI agents against one operating doctrine, and can enforce parts of it.
 
 ```bash
-brew tap marco-buhlmann/mockingbyrd
+brew tap mockingbyrd-io/mockingbyrd
 brew install --cask mockingbyrd
 ```
 
 Apple silicon, macOS 14 or later. The image is signed with a Developer ID and notarized, so it
 installs without a Gatekeeper prompt.
+
+## If you tapped the old name
+
+This tap used to live at `marco-buhlmann/mockingbyrd`. GitHub redirects the old address, so an
+existing tap keeps updating and nothing breaks. To have it named after the organisation:
+
+```bash
+brew untap marco-buhlmann/mockingbyrd
+brew tap mockingbyrd-io/mockingbyrd
+```
+
+Untapping does not remove an installed app.
 
 ## Upgrading
 
