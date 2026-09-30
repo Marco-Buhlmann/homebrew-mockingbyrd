@@ -1,6 +1,6 @@
 cask "mockingbyrd" do
-  version "1.0.132"
-  sha256 "2aafd8b46b9cae2c023420874b18e0005e0bb7e8775215dbdadbbccbcdce704e"
+  version "1.0.141"
+  sha256 "a45f02a62195510ef4d76b0c12a5a1368a867e015c993b73e8785df727d216cc"
 
   url "https://mockingbyrd.io/download/Mockingbyrd-#{version}.dmg"
   name "Mockingbyrd"
