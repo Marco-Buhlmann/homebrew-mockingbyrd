@@ -2,15 +2,15 @@ cask "mockingbyrd" do
   version "1.0.132"
   sha256 "2aafd8b46b9cae2c023420874b18e0005e0bb7e8775215dbdadbbccbcdce704e"
 
-  url "https://mockingbird.marcobuhlmann.com/download/Mockingbyrd-#{version}.dmg"
+  url "https://mockingbyrd.io/download/Mockingbyrd-#{version}.dmg"
   name "Mockingbyrd"
   desc "Measures a workstation running AI agents against one operating doctrine"
-  homepage "https://mockingbird.marcobuhlmann.com/"
+  homepage "https://mockingbyrd.io/"
 
   # The download page publishes a manifest beside the image, so livecheck reads the version
   # from the same file the site reads rather than scraping the page for it.
   livecheck do
-    url "https://mockingbird.marcobuhlmann.com/download/latest.json"
+    url "https://mockingbyrd.io/download/latest.json"
     strategy :json do |json|
       json["version"]
     end

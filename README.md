@@ -1,6 +1,6 @@
 # Mockingbyrd tap
 
-A Homebrew cask for [Mockingbyrd](https://mockingbird.marcobuhlmann.com/) — it measures a
+A Homebrew cask for [Mockingbyrd](https://mockingbyrd.io/) — it measures a
 workstation running AI agents against one operating doctrine, and can enforce parts of it.
 
 ```bash
