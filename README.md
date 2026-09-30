@@ -1,3 +1,8 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/logo-w.png">
+  <img src="assets/logo-b.png" alt="Mockingbyrd" width="360">
+</picture>
+
 # Mockingbyrd tap
 
 A Homebrew cask for [Mockingbyrd](https://mockingbyrd.io/) — it measures a
